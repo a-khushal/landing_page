@@ -1,8 +1,7 @@
 import Appbar from "./components/Appbar";
 import GreatThinkers from "./components/Hero";
 import HelloGoodbye from "./components/Hero1";
-import BlogSection from "./components/News";
-import Card from "./components/News";
+import News from "./components/News";
 
 export default function Home() {
   return (
@@ -21,7 +20,7 @@ export default function Home() {
         </div>
     </div>
     <div>
-      <BlogSection/>
+      <News/>
     </div>
   </div>
   );
