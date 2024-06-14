@@ -29,7 +29,7 @@ const GreatThinkers: React.FC = () => {
   }, []);
 
   return (
-    <h1 className="ml3 font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+    <h1 className="ml3 font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white">
       InventX
     </h1>
   );

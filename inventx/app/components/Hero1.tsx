@@ -43,8 +43,8 @@ const HelloGoodbye: React.FC = () => {
   return (
     <h1 className="ml11 font-bold text-4xl sm:text-3xl md:text-4xl lg:text-5xl">
       <span className="text-wrapper inline-block pt-1 pr-0.5 pb-1.5">
-        <span className="line line1 opacity-0 absolute left-0 h-full w-0.5 bg-white transform-origin-left"></span>
-        <span className="inline-block">{`Unleashing the brighter side`}</span>
+        <span className="line line1 opacity-0 absolute left-0 h-full w-0.5 bg-black transform-origin-left"></span>
+        <span className="inline-block text-white">{`Unleashing the brighter side`}</span>
       </span>
     </h1>
   );
