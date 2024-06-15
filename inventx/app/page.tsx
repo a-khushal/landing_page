@@ -8,7 +8,7 @@ export default function Home() {
     <div className="h-screen w-screen flex items-center justify-center overflow-x-hidden relative">
       <div className="absolute inset-0 flex items-center justify-center">
         <video className="absolute inset-0 w-full h-full object-cover" autoPlay loop muted>
-          <source src="/video.mp4" type="video/mp4"/>
+          <source src="/hero.mp4" type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
       </div>
